@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+ 
+ 
+ 
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   /* 
+  flex-direction:      column-reverse , column   , row ,  row-reverse
+   flex-wrap:          wrap      nowrap  wrap reverse
+....................................
+****flex-flow: flex-direction ++ flex-wrap:  shorthand    exp...   flex-flow:    row wrap;
+**************************************************************
+position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  ****************************************
+ @media screen and (max-width:600px) {
+ 
+    .parent{
+    flex-direction: column ;
+    }
+    .parent div{
+      width: 100%;
+    }
+   }
+   @media screen and (min-width:601px) and (max-width:768px)    {
+     .parent{
+      flex-wrap: wrap;
+       }
+    .parent div{
+      width: 40%;
+    }
+   }
+*/
